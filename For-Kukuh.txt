@@ -1,0 +1,30 @@
+	1. trs_musrenbang ditambah field 
+		current_goal dan next_goal 
+		bersifat Nullable 
+	2. Kegiatan ditambah Lookup SKPD
+	3. Migrasi Data All Master  
+
+==========================================
+14 februari 2016
+
+	1. TransaksiRenja
+	 - pilih sasaran => musrenbang
+						- pilih kegiatan	= tambah reset, contoh di usulanSKPD & TransaksiRenja pas form loading kegiatan ( mas ardian )
+					=> usulan skpd
+						- hidden kode musrenbang saat load usulan SKPD
+						- pilih usulan 		= combobox berdasar kecamatan/kelurahan/desa
+			- report sudah jadi
+					 
+	2. view_musrenbang, kode_unitkerja => unitkerja_pengusul
+	3. migrasi database musrenbang dari eplanning ke rpjm
+4. usulanSKPD controller CI & EXTJS, pas UPDATE post dadi get
+5. transaksiRenja model CI, pas UPDATE
+
+
++++++++++++++++++++
+transaksiRenja
+	COMBO
+		- tambah store
+		- tambah model ext
+		- tambah fungsi controller
+		- tambah fungsi model CI
